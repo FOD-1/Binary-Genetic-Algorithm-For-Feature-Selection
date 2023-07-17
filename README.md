@@ -15,7 +15,7 @@ The dataset is provided as a matrix with a size of [448 x 120]. Each row corresp
 ## Usage
 To run the genetic algorithm feature selection code, follow these steps:
 
-1. Prepare your input data in csv or xlsx formats. Your label column should be categorical
+1. Prepare your input data in csv or xlsx or mat formats. Your label column should be categorical
 2. Open `Main.m` and modify the parameters such as population size (Nindiv), number of generations (maxIter), crossover type, selection Type, etc., as per your requirements.
 3. Run the script:
 4. The program will output the best feature subset found and any additional results or evaluation metrics, depending on your implementation.
